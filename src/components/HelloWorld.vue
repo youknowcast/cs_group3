@@ -1,31 +1,21 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
     <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
     </p>
-    <h3>Installed CLI Plugins</h3>
+    <h3></h3>
     <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
+    <li><img src="https://mobilestatic.littlecaesars.com/weborderingimages/b0469b0b-58c4-4827-bbd9-8e2d104ec256.jpg"></li>
+    <li><img src="https://mobilestatic.littlecaesars.com/weborderingimages/26b8bbd9-e4a4-4e6e-a915-5ed740713872.jpg"></li>
+    <li><img src="https://mobilestatic.littlecaesars.com/weborderingimages/75814153-d5c5-4cef-84b8-8745be410436.jpg"></li>
+    <li><img src="https://mobilestatic.littlecaesars.com/weborderingimages/cef4b693-3edc-47c4-8542-b89758df9181.jpg"></li>
+    <li><img src="https://mobilestatic.littlecaesars.com/weborderingimages/da2c9d18-bad2-469a-9635-a73037d7b92a.jpg"></li>
+    <li><img src="https://mobilestatic.littlecaesars.com/weborderingimages/fcde7565-8e2f-4d26-8046-55b993eedb2f.jpg"></li>
+    <li><img src="https://mobilestatic.littlecaesars.com/weborderingimages/a6800ea1-46ff-4cdb-bc15-be0d318b1101.jpg"></li>
+    <li><img src="https://mobilestatic.littlecaesars.com/weborderingimages/0835c7c1-efee-4564-8cfc-33139b426b6d.jpg"></li>
+    <li><img src="https://mobilestatic.littlecaesars.com/weborderingimages/be065d23-fa3d-48f8-8f50-a2679aaa0d28.jpg"></li>
+    <li><img src="https://mobilestatic.littlecaesars.com/weborderingimages/225cdf4d-8493-4dff-9462-95f6f1fa4dc6.jpg"></li>
+    <li><img src="https://mobilestatic.littlecaesars.com/weborderingimages/b8b19b2e-5421-4b20-b3ef-02b802ca7d4f.jpg"></li>
+    <li><img src="https://mobilestatic.littlecaesars.com/weborderingimages/e0072b2d-37be-4f4c-bf20-374329ecfeb8.png" alt="5 Meat Feast™ - CRAZY!CRAZY!™ AMOUNTS OF TOPPINGS AT THE NATION'S BEST PRICE** Large round pizza with Bacon, Sausage, Ham, Pepperoni and Beef">
     </ul>
   </div>
 </template>
