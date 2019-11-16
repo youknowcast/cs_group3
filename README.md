@@ -11,6 +11,7 @@ yarn serve
 ```
 
 ### Compiles and minifies for production
+以下のコマンドを実行すると dist ディレクトリ配下にビルドされた資源(html, js, css)が出力されるので，これを S3 上にデプロイします．
 ```
 yarn build
 ```
