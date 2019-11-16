@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="menu">
     <p>
     </p>
     <h3></h3>
@@ -15,14 +15,14 @@
     <li><img src="https://mobilestatic.littlecaesars.com/weborderingimages/be065d23-fa3d-48f8-8f50-a2679aaa0d28.jpg"></li>
     <li><img src="https://mobilestatic.littlecaesars.com/weborderingimages/225cdf4d-8493-4dff-9462-95f6f1fa4dc6.jpg"></li>
     <li><img src="https://mobilestatic.littlecaesars.com/weborderingimages/b8b19b2e-5421-4b20-b3ef-02b802ca7d4f.jpg"></li>
-    <li><img src="https://mobilestatic.littlecaesars.com/weborderingimages/e0072b2d-37be-4f4c-bf20-374329ecfeb8.png" alt="5 Meat Feast™ - CRAZY!CRAZY!™ AMOUNTS OF TOPPINGS AT THE NATION'S BEST PRICE** Large round pizza with Bacon, Sausage, Ham, Pepperoni and Beef">
+    <li><img src="https://mobilestatic.littlecaesars.com/weborderingimages/e0072b2d-37be-4f4c-bf20-374329ecfeb8.png"></li>
     </ul>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Menu',
   props: {
     msg: String
   }

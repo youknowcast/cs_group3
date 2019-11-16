@@ -1,14 +1,13 @@
 <template>
   <div id="app">
     <h1>Welcome to AIIT pizza house</h1>
-    <button>Admin site</button>
-    <button>Menu site</button>
+    <router-link to="/menu">Menu</router-link>
+    <router-link to="/orders">Order List</router-link>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-
-
 
 export default {
   name: 'app',
