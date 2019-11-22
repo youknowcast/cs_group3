@@ -31,14 +31,21 @@ export default {
   beforeMount() {
     this.columnDefs = [
       {headerName: 'CallerID', field: 'caller_id'},
-      {headerName: 'Model', field: 'model'},
-      {headerName: 'Price', field: 'price'}
+      {headerName: 'Confirmation', field: 'conf_number'},
+      {headerName: 'PizzaType', field: 'pizza_type'},
+      {headerName: 'Count', field: 'count'},
+      {headerName: 'OrderTime', field: 'order_time'},
+      {headerName: 'PickupTime', field: 'pickup_time'}
     ];
-    this.rowData = [
-      {make: 'Toyota', model: 'Celica', price: 35000},
-      {make: 'Ford', model: 'Mondeo', price: 32000},
-      {make: 'Porsche', model: 'Boxter', price: 72000}
-    ];
+//    this.rowData = [
+//      {make: 'Toyota', model: 'Celica', price: 35000},
+//      {make: 'Ford', model: 'Mondeo', price: 32000},
+//      {make: 'Porsche', model: 'Boxter', price: 72000}
+//    ];
+    fetch('https://qltfx6os16.execute-api.us-east-1.amazonaws.com/dev')
+        .then(result => result.json())
+        .then(rowData => this.rowData = rowData);
+
   },
   props: {
     msg: String
